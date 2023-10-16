@@ -1,0 +1,469 @@
+body{
+    background-color: yellow;
+}
+.container1{
+background-image: url(https://images.pexels.com/photos/696644/pexels-photo-696644.jpeg?auto=compress&cs=tinysrgb&w=600);
+    font-size: 16px;
+    /* padding: 0px 150px; */
+    height: fit-content;
+    overflow: hidden;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.container1 .row{
+    backdrop-filter:brightness(40%);
+}
+.container1 .para1{
+    font-size: .7em;
+    color: #15C7E7;
+    padding:30px 10px 10px ;
+}
+.container1 .para2{
+    color: white;
+    padding: 10px;
+}
+.container1 .button1{
+    font-size: 1.5em;
+margin-bottom: 160px;
+}
+.container1 h6{
+    font-size: 3.5em;
+    font-family: sans-serif;
+    color: white;
+}
+.container1 .my-col1{
+    /* background-color: red; */
+    padding-top: 150px;
+}
+.container1 .my-img{
+    animation-name: robot;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+}
+@keyframes robot{
+    0%{
+       transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(-3deg);
+    }
+    75%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(3deg);
+    }
+}
+
+
+
+
+.container2{
+    padding: 50px;
+    background-color: black;
+    color: white;
+}
+.container2 .my-team{
+    width: 100%;
+    height:350px;
+    transition: 1s all ease;
+    box-shadow: 2px 2px 8px 0px darkblue;
+    margin: 10px;
+}
+.team2{
+    background-image: url(https://demo.moxcreative.com/droid/wp-content/uploads/sites/52/2021/07/teaching-education-and-university-lifestyle-concept-good-looking-smart-young-asian-female-teacher-e1625392198375.jpg);
+    background-size: cover;
+}
+.team1{
+    background-image: url(https://demo.moxcreative.com/droid/wp-content/uploads/sites/52/2021/07/cheerful-black-man-with-folded-arms-in-gray-e1625391699528.jpg);
+    background-size: cover;
+}
+.container2 .my-team:hover{
+    scale: 1.1;
+    border: 2px solid gold;
+}
+.container2 .para1{
+    font-size: .9em;
+}
+.container2 h6{
+    font-size: 3em;
+    width: 90%;
+}
+
+/* container3 */
+.container3{
+    background-color: black;
+}
+
+.container3-row1 button{
+    margin: 20px 0;
+}
+.container3-row1 p{
+font-size: 54px;
+font-family: sans-serif;
+color: white;
+}
+
+
+
+.main3{
+    background-color:black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.main3 .card{
+    transition: .5s all ease;
+margin-bottom: 40px;
+color: white;
+background-color: rgb(25, 30, 35);
+}
+.main3 .card:hover{
+    /* border: 1px solid red; */
+    scale: 1.01;
+animation-name: shine;
+animation-duration: 2s;
+animation-timing-function: linear;
+animation-iteration-count: infinite;
+}
+@keyframes shine
+{
+    0%{
+        border-color: rgb(3, 199, 253);
+        box-shadow: 0 0 10px rgb(3, 199, 253);
+    }
+    50%{
+        border-color: red;
+        box-shadow: 0 0 20px red;
+    }
+    100%{
+        border-color: orange;
+        box-shadow: 0 0 10px orange;
+    }
+}
+/* container4 */
+.container4{
+background-image: url(https://themes.hibootstrap.com/aoriv/wp-content/uploads/2023/07/banner-bg-1-1.jpg);
+color: white;
+background-size: 100%;
+background-repeat: no-repeat;
+}
+.container4 .col-md-6{
+    padding: 150px 10px;
+}
+.container4 .col-md-6 H6{
+   font-size: 5em;
+   font-family: system-ui;
+   padding-bottom: 23px;
+   margin-left: 73px;
+   font-weight: bold;
+}
+.container4 .col-md-6 button{
+font-size: 5em;
+font-family: system-ui;
+font-weight: bold;
+margin-left: 73px;
+}
+
+.container5{
+    background-color: black;
+    padding: 30px 0;
+}
+.container5 span{
+font-size: 40px;
+font-family: system-ui;
+color: whitesmoke;
+}
+
+.container5 span:hover{
+    color: red;
+}
+
+/* .container6 */
+.container6{
+    background-color: black;
+    padding: 50px 0;
+}
+.container6 p{
+    padding: 34px;
+    font-size: 2.5em;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white
+}
+.container6 .con-6 span{
+    animation-name: spin;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+}
+@keyframes spin{
+    0%{
+      color: red;
+    }
+    50%{
+    color: goldenrod;
+    }
+    70%{
+        color: greenyellow;
+      }
+      100%{
+      color: yellow;
+      }
+}
+/* .container6-row{
+    display: flex;
+    flex-wrap: wrap;
+} */
+.container6-row .col-md-3{
+    position: relative;
+    overflow: hidden;
+}
+.container6-row .col-md-3 .col-my{
+    position: relative;
+    overflow: hidden;
+}
+.container6-row img{
+    width: 100%;
+
+}
+.container6-row .col-md-3 .icons{
+    position: absolute;
+    top: 270px;
+    left: 56px;
+    color: red;
+    padding: 40px;
+}
+.container6-row .col-md-3 .icons i{
+    background-color: navy;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 1.4em;
+  visibility: hidden;
+  transition: 1s all ease ;
+  z-index: 2;
+  margin: 5px;
+  animation-name: ico;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+@keyframes ico{
+    0%{
+        transform: rotatey(0deg);
+       
+    }
+    100%{
+        transform: rotatey(2deg);
+        background-color: white;
+    }
+}
+.container6-row .col-md-3:hover .icons i{
+  visibility: visible;
+}
+.container6-row .col-md-3 .info{
+    position: absolute;
+    bottom: -101%;
+    left: 0;
+    background-color: black;
+    transition: 2s all ease;
+    z-index: 1;
+    width: 100%;
+    height: 431px;
+    border: 1px solid red;
+}
+.container6-row .col-md-3 .info p{
+    margin-top: 100px;
+    color: white;
+    font-size: 1.5em;
+}
+.container6-row .col-md-3:hover .info{
+    bottom: 0%;
+    left: 0;
+}
+.contact{
+    position: relative;
+    background-color: black;
+    color: white;
+}
+
+.contact img{
+    width: 100%;
+}
+.contact .contact-form{
+    background-image: url(https://images.pexels.com/photos/3435272/pexels-photo-3435272.jpeg?auto=compress&cs=tinysrgb&w=600);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+}
+.contact .contact-form .formm{
+    backdrop-filter: brightness(40%);
+}
+.contact h6{
+    font-size: 3em;
+    text-align: center;
+    padding: 22px 0 ;
+    font-family: sans-serif;
+}
+.contact label{
+    margin-left: 12px;
+}
+.contact i{
+    position: absolute;
+    left: 39px;
+    margin-top: 10px;
+    color: black;
+}
+.contact input{
+    height: 35px;
+    width: 70%;
+    margin: 1px 13px 20px;
+}
+
+
+.contact input::placeholder{
+    padding-left: 33px;
+    letter-spacing: 2px;
+}
+.contact button{
+    margin: 20px 20px;
+    font-size: 1.2em;
+}
+
+
+
+
+
+@media (min-width:427px) and (max-width:768px)
+{
+    .container1 .button1{
+        margin-bottom: 30px;
+    }
+    .container2 .my-team{
+        width: 100%;
+        height: 200px;
+     margin-top: 25px;
+    }
+    .container2 .para1{
+        font-size: .9em;
+    }
+    .container2 h6{
+        font-size: 1.8em;
+        width: 100%;
+    }
+    .main3{
+
+        flex-wrap: wrap;
+    }
+    .main3 .card{
+        margin: 20px;
+    }
+    
+
+
+    .container4 .col-md-6{
+        padding: 70px 50px 100px;
+    }
+    .container4 .col-md-6 H6{
+       font-size: 2.2em;
+       font-family: system-ui;
+       padding-bottom: 23px;
+       font-weight: bold;
+    }
+    .container4 .col-md-6 button{
+    font-size: 2em;
+    font-family: system-ui;
+    font-weight: bold;
+    }
+
+    .container6-row .col-md-3 .icons{
+    
+        top:140px;
+        left: 12px;
+        padding: 10px;
+        display: flex;
+    }
+    .container6-row .col-md-3 .icons i{
+        font-size: .5em;
+    }
+    .container6-row .col-md-3 .info{
+        width: 100%;
+        height: 205px;
+    }
+    .container6-row .col-md-3 .info p{
+        font-size: .8em;
+        margin-top: 0px;
+    }
+    .contact img{
+        width: 100%;
+        height: 450px;
+    }
+}
+
+
+
+@media (min-width:320px) and (max-width:426px)
+{
+    .container1 .button1{
+        margin-bottom: 10px;
+    }
+    .container1 .my-img{
+        width: 80%;
+    }
+    .container1 .para1{
+        font-size: .5em;
+    }
+    .container1 h6{
+    font-size: 3.1em;
+    }
+    .container1 .button1{
+        font-size: 1.2em;
+    margin-bottom: 20px;
+    }
+
+    .container2 .my-team{
+        width: 50%;
+        height: 200px;
+        margin-top: 20px;
+    }
+.container3{
+    margin-bottom: -50px;
+}
+    .container3-row1 button{
+      position: relative;
+      top: -100px;
+    }
+    .container3-row1 p{
+       margin-left: 34px;
+        }
+        .container4{
+            background-image: url(https://themes.hibootstrap.com/aoriv/wp-content/uploads/2023/07/banner-bg-1-1.jpg);
+            color: white;
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            }
+        .container4 .col-md-6{
+            padding: 10px 10px;
+        }
+        .container4 .col-md-6 H6{
+            font-size: 1.5em;
+            width: 50%;
+            margin: -20px 10px 10px;
+         }
+         .container4 .col-md-6 button{
+            font-size: 1.4em;
+            margin: -10px 10px 0;
+            }
+            .container6-row .col-md-3 .icons{
+                left: 75px;
+            }
+            .container6-row .col-md-3 .info{
+                height: 505px;
+                bottom: -115%;
+            }
+}
