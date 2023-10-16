@@ -1,0 +1,477 @@
+@media (min-width:427px) and (max-width:769px) {
+    header img {
+        width: 100%;
+    }
+
+    header ul li {
+        padding: 40px 10px;
+    }
+
+    header ul li a {
+        font-size: .8em;
+    }
+
+    .flt {
+        left: 180px;
+        font-size: .6em;
+    }
+
+    /* main1 */
+    .main1 {
+        height: 82vh;
+        overflow: hidden;
+    }
+
+    .main1 .box1 {
+        width: 600px;
+        height: 82vh;
+        padding: 130px 20px 130px 50px;
+    }
+
+    .main1 .box1 h6 {
+        font-size: 1.8em;
+        padding-bottom: 20px;
+    }
+
+    .main1 .box1 p {
+        font-size: .6em;
+        line-height: 22px;
+        width: 90%;
+    }
+
+    .main1 .box1 button {
+        font-size: .9em;
+        margin-top: 10px;
+    }
+
+    .main1 .box2 {
+        height: 82vh;
+    }
+
+    .main1 .box2 img {
+        margin-left: 15px;
+        margin-top: 10px;
+        width: 50%;
+    }
+
+    /* main 2 */
+    .shop .title {
+        padding: 0px 20px;
+    }
+
+    .shop .title ul li {
+        font-size: .8em;
+    }
+
+    .shop .shop-cart {
+        padding: 10px 30px;
+        height: 60vh;
+    }
+
+    .shop .shop-cart .box {
+        width: 200px;
+        height: 290px;
+    }
+
+    .shop .shop-cart .box .box01 {
+        width: 200px;
+    }
+
+    .shop .shop-cart .box .box01 .inner {
+        width: 200px;
+        height: 30px;
+        bottom: 1%;
+    }
+
+    .shop .shop-cart .box .box01:hover .inner {
+        bottom: 8%;
+    }
+
+    .shop .shop-cart .box .box02 {
+        margin-top: -156px;
+    }
+
+    .shop .shop-cart .box .box02 h5 {
+        font-size: .7em;
+        margin-bottom: 10px;
+    }
+
+    .shop .shop-cart .box .box02 p {
+        font-size: .7em;
+    }
+
+    .about {
+        height: 69vh;
+        margin-top: -170px;
+        /* background-color: red; */
+    }
+
+    .about h6 {
+        font-size: 1.6em;
+    }
+
+    .about .box {
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-top: 30px;
+    }
+
+    .about .box p {
+        font-size: 1.3em;
+        margin-bottom: 20px;
+        line-height: 26px;
+    }
+
+    .blog {
+        margin-top: -160px;
+        height: 53vh;
+    }
+
+    .blog-box {
+        margin-top: 010px;
+    }
+
+    .blog-box .box1 {
+        width: 600px;
+        height: 260px;
+        margin-right: 10px;
+    }
+    .blog-box .box{
+        width: 330px;
+        height: 260px;
+        margin-right: 10px;
+    }
+    
+    .blog-box .box3 .inner-box1{
+        width: 335px;
+        height: 130px;
+        margin-bottom: 10px;
+    }
+    .blog-box .box3 .inner-box1 img{
+        width: 99%;
+        object-fit: cover;
+        object-position: center;
+    }
+    .pages{
+        height: 60vh;
+    }
+    .pages .box{
+        width: 730px;
+        height: 60vh;
+        /* background-color: yellow; */
+    }
+    .pages .box1{
+        padding: 70px 0px 10px 50px;
+        font-size: 16px;
+          }
+          .pages .box1 h6{
+            font-size: 2em;
+          }
+          .pages .box2{
+            overflow: hidden;
+            padding: 70px 100px 100px 20px;
+          }
+          .pages .box2 img{
+            width: 90%;
+          }
+          .pages .box2{
+            overflow: hidden;
+            padding: 40px 30px 50px 50px;
+          }
+          .pages .box2 img{
+            width: 100%;
+          }
+          .box-iii img{
+            margin-left: 10px;
+          }
+          /*  */
+          .contact{
+            height: 65vh;
+          }
+          .contact .box{
+            width: 50%;
+            height: 65vh;
+          }
+          .contact .box2{
+            padding: 10px 20px 20px;
+          }
+          .contact .box2 h5{
+            font-size: 2em;
+            margin-bottom: 0px;
+          }
+          .contact .box2 table{
+            padding-top: 50px;
+          }
+          .contact .box2 table tr td input{
+            margin-bottom: 30px;
+            margin-right: 10px;
+          }
+          .contact .box2 table .email{
+            width: 195%;
+          }
+}
+
+
+
+@media (min-width:320px) and (max-width:426px) {
+    header {
+        padding: 10px 20px;
+    }
+
+    header img {
+        width: 50%;
+    }
+
+    header ul {
+        display: none;
+    }
+
+    header .icons {
+        display: none;
+    }
+
+    header .menu-bar {
+        display: block;
+    }
+
+    .main1 {
+        /* background-color: blue; */
+        height: 40vh;
+    }
+
+    .main1 .box1 {
+        width: 550px;
+        height: 35vh;
+        padding: 30px 10px 10px 20px;
+    }
+
+    .main1 .box1 h6 {
+        font-size: 1.2em;
+        padding-bottom: 10px;
+    }
+
+    .main1 .box1 p {
+        font-size: .5em;
+        padding-bottom: 10px;
+        line-height: 20px;
+    }
+
+    .main1 .box1 button {
+        font-size: .6em;
+    }
+
+    .main1 .box2 {
+        width: 250px;
+        height: 40vh;
+    }
+
+    .main1 .box2 img {
+        width: 85%;
+        animation: watch 2s infinite linear alternate;
+        margin-left: 5px;
+        margin-top: 10px;
+    }
+
+
+
+    /* shop */
+    .shop .title {
+        padding: 0px 10px;
+    }
+
+    .shop .title ul li {
+        font-size: .45em;
+    }
+
+    .shop .title .page {
+        font-size: .9em;
+    }
+
+    .shop .shop-cart {
+        padding: 10px 30px;
+        height: 37vh;
+    }
+
+    .shop .shop-cart .box {
+        width: 90px;
+        height: 170px;
+        margin: 0px 5px;
+    }
+
+    .shop .shop-cart .box .box01 {
+        width: 90px;
+    }
+
+    .shop .shop-cart .box .box01 .inner {
+        width: 90px;
+        height: 30px;
+        bottom: 1%;
+        font-size: .6em;
+    }
+
+    .shop .shop-cart .box .box01:hover .inner {
+        bottom: 7%;
+    }
+
+    .shop .shop-cart .box .box02 {
+        margin-top: -272px;
+    }
+
+    .shop .shop-cart .box .box02 h5 {
+        font-size: .5em;
+        margin-bottom: 5px;
+    }
+
+    .shop .shop-cart .box .box02 p {
+        font-size: .4em;
+        margin-bottom: -10px;
+
+    }
+
+    .about {
+        height:68vh;
+        margin-top: -319px;
+        /* background-color: red; */
+    }
+
+    .about h6 {
+        font-size: 1.2em;
+    }
+
+    .about .box {
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 30px;
+    }
+
+    .about .box .heading h5 {
+        font-size: 1.5em;
+    }
+
+    .about .box p {
+        font-size: 1.2em;
+        margin-bottom: 20px;
+        line-height: 24px;
+    }
+    .blog {
+        margin-top: -320px;
+        height: 30vh;
+        /* background-color: red; */
+    }
+    .blog h6{
+        font-size: 2em;
+    }
+ 
+    .blog-box {
+        margin-top: 10px;
+    }
+
+    .blog-box .box1 {
+        width: 600px;
+        height: 130px;
+        margin-right: 10px;
+    }
+    .blog-box .box{
+        width: 330px;
+        height: 130px;
+        margin-right: 10px;
+    }
+    
+    .blog-box .box3 .inner-box1{
+        width: 335px;
+        height: 130px;
+        margin-bottom: 3px;
+    }
+    .blog-box .box3 .inner-box1 img{
+        width: 70%;
+        object-fit: cover;
+        object-position: center;
+    }
+    .pages{
+        height: 38vh;
+    }
+    .pages .box{
+        width: 730px;
+        height: 20vh;
+        /* background-color: yellow; */
+        overflow: hidden;
+    }
+    .pages .box1{
+        padding: 80px 1px 10px 15px;
+        font-size: 16px;
+        overflow: hidden;
+        height: 10vh;
+        /* background-color: blue; */
+        overflow: hidden;
+          }
+          .pages .box1 h6{
+            margin-bottom: 30px;
+            font-size: 1.5em;
+          }
+          .pages .box1 p{
+            display: none;
+            /* font-size: .7em;
+            line-height: 20px;
+            margin-top: 10px; */
+          }
+          .pages .box1 button{
+            font-size: .6em;
+          }
+          .pages .box2{
+            /* background-color: greenyellow; */
+            overflow: hidden;
+            /* background-color: blue; */
+            /* padding: 70px 100px 100px 20px; */
+
+          }
+          .pages .box{
+            width: 730px;
+            height: 50vh;
+            /* background-color: yellow; */
+        }
+
+          .pages .box2{
+            overflow: hidden;
+            padding: 40px 10px 50px 0px;
+          }
+          .pages .box2 img{
+            width: 120%;
+          }
+          .box-iii img{
+            margin-left: 5px;
+          }
+          .contact{
+            margin-top: 40px;
+          }
+          .contact .box{
+            width: 100%;
+          }
+          .contact .box1{
+            height: 40vh;
+          }
+          .contact .box2{
+            padding: 30px 20px 0px;
+            overflow: hidden;
+          }
+          .contact .box2 h5{
+            font-size: 2.5em;
+            margin-bottom: 0px;
+          }
+          .contact .box2 table{
+            padding-top: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+          }
+          .contact .box2 table tr td{
+            font-size: .8em;
+          }
+          .contact .box2 table tr td input{
+            margin-bottom: 30px;
+            margin-right: 5px;
+          }
+          .contact .box2 table .email{
+            width: 196%;
+          }
+}
